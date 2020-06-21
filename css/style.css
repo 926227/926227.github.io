@@ -1,0 +1,36 @@
+/* begin */
+.first-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+h1 {
+    color: brown;
+
+}
+
+.box {
+position: relative;
+width: 600px;
+height: 600px;
+background: yellow; /* или можно череp background-color: ; */
+
+padding: 0px;
+border: 1px red solid;
+left: 100px;
+top:100px;
+
+
+}
+
+.box_in_box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left:100px;
+    top:100px;
+
+}
