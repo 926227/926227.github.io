@@ -1,0 +1,66 @@
+        // $sql = "SELECT file_store.id as id, file_name, file_description,        category.category_name as category, date_of_attach, category_id
+        //     FROM file_store, category 
+        //     WHERE file_store.category_id != category.id ";
+        // $sql = "SELECT * FROM file_store";
+        // $sql = "SELECT * FROM category JOIN file_store  ON category.id=file_store.category_id";
+
+
+
+<h3 class="enter_subtitle">Бланки заявок на допуск в систему для претендентов:</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="enter_block" href="/Documents/1 Заявка ОС (Акиев).docx">
+                        <div class="enter_icon">
+                            <img src="icons/file_download.gif" alt="">
+                        </div>
+                        <div class="enter_descr">
+                            Заявка на вступление (Орган по сертификации)
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="enter_block" href="/Documents/2 Заявка ИЛ (Акиев).docx">
+                        <div class="enter_icon">
+                            <img src="icons/file_download.gif" alt="">
+                        </div>
+                        <div class="enter_descr">
+                            Заявка на вступление (Испытатальная лаборатория)
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="enter_block" href="/Documents/3 Договор оценки ОС (Акиев).docx">
+                        <div class="enter_icon">
+                            <img src="icons/file_download.gif" alt="">
+                        </div>
+                        <div class="enter_descr">
+                            Договор на проведение оценки
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br><br>
+            <h3 class="enter_subtitle">Документы системы:</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="enter_block" href="/Documents/РДС 1.0 Положение о ЦОС (1).doc">
+                        <div class="enter_icon">
+                            <img src="icons/file_download.gif" alt="">
+                        </div>
+                        <div class="enter_descr">
+                            РДС 1.0 Положение о ЦОС
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="enter_block" href="/Documents/РДС 2.0  Положение о КД.doc">
+                        <div class="enter_icon">
+                            <img src="icons/file_download.gif" alt="">
+                        </div>
+                        <div class="enter_descr">
+                            РДС 2.0  Положение о КД
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
